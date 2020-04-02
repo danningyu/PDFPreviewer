@@ -1,9 +1,9 @@
 # PDF Previewer
 
-A simple project in NodeJS/ExpressJS for uploading a pdf and viewing its preview.  
+A simple project in NodeJS/ExpressJS for uploading a PDF file and viewing its preview.  
 
-Install packages:
+Install packages:  
 `$ npm install`  
 
-Run:
+Run:  
 `$ npm run server`
