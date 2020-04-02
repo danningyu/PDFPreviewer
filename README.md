@@ -7,3 +7,5 @@ Install packages:
 
 Run:  
 `$ npm run server`
+
+To see the website, navigate to [http://localhost:3000](http://localhost:3000)
