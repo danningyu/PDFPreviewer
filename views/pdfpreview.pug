@@ -1,0 +1,22 @@
+doctype html
+
+html
+    head
+        style(type='text/css').
+            #pdfdoc {
+                width: #{widthIn}px;
+                height: #{heightIn}px;
+            }
+            #pdfdoc2{
+                width: 301px;
+                height: 201px;
+            }
+        title PDF Preview Page
+    body
+        h1 PDF Preview Page
+        h4 Document: #{pdfFileName}
+        object(id = "pdfdoc" data=pdfFileName+"#toolbar=0" type="application/pdf")
+            iframe(id="pdfdocfallback" data=pdfFileName+"#toolbar=0" type="application/pdf")
+        //- toolbar = 0 to hide the toolbar (allows for smaller image)
+        //- if we want to make the file downloadable, remove it
+            
